@@ -1,3 +1,12 @@
 [
-    
+  {
+    "student_name": "",
+    "class_semester": "",
+    "university": "",
+    "badge_type": "Newbie",
+    "grant_date": "2025-07-01",
+    "metadata_uri": "https://gateway.pinata.cloud/ipfs/QmVfeEUW7qJEJun4ut4etLWr8iQL4Jj4tjXNnHr231XU7S",
+    "user_address": "0x123...",
+    "tokens_used": 10
+  }
 ]

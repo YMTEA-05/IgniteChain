@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const AdminDashboard = () => {
   // Configuration
-  const API_BASE_URL = "http://localhost:5000";
+  const API_BASE_URL = "http://localhost:8000";
   const BLOCKCHAIN_RPC = "http://127.0.0.1:8545";
   
   const BADGE_TOKEN_REQUIREMENTS = {
@@ -618,7 +618,7 @@ const renderBadgeManagementPage = () => (
             style={styles.select}
           >
             <option value="">-- Select Team --</option>
-            {teams.map((team) => (
+            {Array.isArray(teams) && teams.map(team => (
               <option key={team} value={team}>{team}</option>
             ))}
           </select>
